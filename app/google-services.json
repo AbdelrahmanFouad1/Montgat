@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "29857884398",
+    "firebase_url": "https://montgat-b5e20-default-rtdb.firebaseio.com",
+    "project_id": "montgat-b5e20",
+    "storage_bucket": "montgat-b5e20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29857884398:android:e689d52ddcb43e136bebff",
+        "android_client_info": {
+          "package_name": "com.abdo.montgat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29857884398-rkgsharfjgsd33k404djudssc8gsckbo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abdo.montgat",
+            "certificate_hash": "9e504b3b6a4047a46702a95b14fd312e16918c97"
+          }
+        },
+        {
+          "client_id": "29857884398-k74n71euuv9tcsm06prms3hideu40215.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6tWNxo63YWvSeRzxoX98bisEE07LnY-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29857884398-k74n71euuv9tcsm06prms3hideu40215.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

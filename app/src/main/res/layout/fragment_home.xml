@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:openDrawer="end"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:fitsSystemWindows="true">
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_gravity="start"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/side_menu"
+        style="@style/sideMenu"
+        />
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="false"
+        style="@style/BackgroundColorApp">
+
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:elevation="0dp"
+            style="@style/BackgroundColorApp">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_scrollFlags="scroll|enterAlways"
+                style="@style/BackgroundColorApp"
+                android:contentInsetStart="0dp"
+                android:contentInsetLeft="0dp"
+                android:contentInsetEnd="0dp"
+                android:contentInsetRight="0dp"
+                android:elevation="0dp"
+                app:contentInsetEnd="0dp"
+                app:contentInsetLeft="0dp"
+                app:contentInsetRight="0dp"
+                app:contentInsetStart="0dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <!--                    <com.balysv.materialripple.MaterialRippleLayout-->
+<!--                        android:id="@+id/navigation_drawer_mrl_hom"-->
+<!--                        style="@style/RippleStyleGray"-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_height="@dimen/_30sdp"-->
+<!--                        android:layout_centerVertical="true"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:background="@drawable/btn_icon"-->
+<!--                        android:padding="@dimen/_5sdp">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:src="@drawable/drawe_menu"-->
+<!--                            app:tint="@color/gray"-->
+<!--                            android:visibility="visible"/>-->
+
+<!--                    </com.balysv.materialripple.MaterialRippleLayout>-->
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true"
+                        android:layout_weight="6"
+                        android:paddingTop="@dimen/_10sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:paddingStart="@dimen/_10sdp"
+                        android:paddingEnd="@dimen/_10sdp"
+                        android:src="@drawable/final_logo"
+                        app:tint="@color/yellow" />
+
+                    <com.balysv.materialripple.MaterialRippleLayout
+                        android:id="@+id/search_MRL_home"
+                        style="@style/RippleStyleGray"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_icon"
+                        android:padding="@dimen/_5sdp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_search"
+                            style="@style/imageColorTint4"/>
+
+                    </com.balysv.materialripple.MaterialRippleLayout>
+
+
+                </LinearLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/slider_cv_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_150sdp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:layout_marginEnd="@dimen/_12sdp"
+                    android:layout_marginBottom="@dimen/_15sdp"
+                    android:elevation="@dimen/_10sdp"
+                    app:cardCornerRadius="@dimen/_10sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentLeft="true">
+
+                    <com.smarteist.autoimageslider.SliderView
+                        android:id="@+id/imageSlider"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:sliderAnimationDuration="2000"
+                        app:sliderAutoCycleDirection="back_and_forth"
+                        app:sliderAutoCycleEnabled="true"
+                        app:sliderIndicatorEnabled="false"
+                        app:sliderStartAutoCycle="true"
+                        style="@style/BackgroundColorApp"/>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/category_tv_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/slider_cv_home"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Category"
+                    android:textSize="@dimen/_26ssp"
+                    style="@style/textColor"
+                    android:textStyle="bold"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/_15sdp" />
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:id="@+id/seeAll_category_mrl_home"
+                    style="@style/RippleStyleGrayNormal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/category_rv_home"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:layout_marginBottom="@dimen/_2sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_15sdp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="See All"
+                        android:textColor="@color/yellow"
+                        android:textSize="@dimen/_14ssp" />
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/category_rv_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/category_tv_home"
+                    android:layout_alignStart="@+id/category_tv_home"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginBottom="@dimen/_15sdp"
+                    android:orientation="horizontal"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:listitem="@layout/category_home_item"
+                    android:layout_alignLeft="@+id/category_tv_home"
+                    android:layout_alignParentRight="true" />
+
+
+
+
+                <TextView
+                    android:id="@+id/trending_tv_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/category_rv_home"
+                    android:layout_alignStart="@+id/category_tv_home"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Trending"
+                    android:textSize="@dimen/_26ssp"
+                    style="@style/textColor"
+                    android:textStyle="bold"
+                    android:layout_alignLeft="@+id/category_tv_home" />
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:id="@+id/seeAll_trending_mrl_home"
+                    style="@style/RippleStyleGrayNormal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/trending_rv_home"
+                    android:layout_alignEnd="@+id/seeAll_category_mrl_home"
+                    android:layout_marginBottom="@dimen/_2sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_alignRight="@+id/seeAll_category_mrl_home">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="bottom"
+                        android:text="See All"
+                        android:textColor="@color/yellow"
+                        android:textSize="@dimen/_14ssp" />
+
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/trending_rv_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/trending_tv_home"
+                    android:layout_alignStart="@+id/trending_tv_home"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginBottom="@dimen/_15sdp"
+                    android:orientation="horizontal"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:listitem="@layout/trending_home_item"
+                    android:layout_alignLeft="@+id/trending_tv_home"
+                    android:layout_alignParentRight="true" />
+
+                <TextView
+                    android:id="@+id/new_tv_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/trending_rv_home"
+                    android:layout_alignStart="@+id/category_tv_home"
+                    android:padding="@dimen/_5sdp"
+                    android:text="New Arrival"
+                    style="@style/textColor"
+                    android:textSize="@dimen/_26ssp"
+                    android:textStyle="bold"
+                    android:layout_alignLeft="@+id/category_tv_home" />
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:id="@+id/seeAll_new_mrl_home"
+                    style="@style/RippleStyleGrayNormal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/new_rv_home"
+                    android:layout_alignEnd="@+id/seeAll_category_mrl_home"
+                    android:layout_marginBottom="@dimen/_2sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_alignRight="@+id/seeAll_category_mrl_home">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="See All"
+                        android:textColor="@color/yellow"
+                        android:textSize="@dimen/_14ssp" />
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/new_rv_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/new_tv_home"
+                    android:layout_alignStart="@+id/new_tv_home"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginBottom="@dimen/_15sdp"
+                    android:orientation="horizontal"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:listitem="@layout/new_home_item"
+                    android:layout_alignLeft="@+id/new_tv_home"
+                    android:layout_alignParentRight="true" />
+
+            </RelativeLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/_25sdp"
+    android:paddingTop="@dimen/_25sdp"
+    android:paddingRight="@dimen/_25sdp"
+    android:paddingBottom="@dimen/_25sdp"
+    tools:context=".ui.login.Register.SignUpActivity2"
+    style="@style/BackgroundColorApp"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/_40sdp">
+
+            <ImageView
+                android:id="@+id/oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/circle" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:layout_marginBottom="@dimen/_25sdp"
+                android:fontFamily="@font/big_shoulders_bold"
+                android:text="@string/register2_text1"
+                style="@style/big_text"
+                android:textSize="@dimen/_40sdp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/back_image_signUp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/ic_back"
+                android:transitionName="transition_back_arrow_btn"
+                style="@style/imageColor"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:fontFamily="@font/bunge"
+                android:text="@string/register2_text2"
+                android:textAllCaps="true"
+                android:textSize="@dimen/_30ssp"
+                style="@style/big_text"
+                android:transitionName="transition_title_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:text="@string/register2_text3"
+                style="@style/big_text"
+                android:textSize="@dimen/_16ssp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/male_rb_signUp2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register2_text4"
+                    style="@style/textColor2"/>
+
+                <RadioButton
+                    android:id="@+id/female_rb_signUp2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register2_text5"
+                    style="@style/textColor2"/>
+
+                <RadioButton
+                    android:id="@+id/other_rb_signUp2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register2_text6"
+                    style="@style/textColor2"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/error_rb_signUp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:includeFontPadding="false"
+                android:text="Please select Gender"
+                android:textColor="@color/error_color"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                style="@style/line2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/register2_text7"
+                style="@style/big_text"
+                android:textSize="@dimen/_16ssp" />
+
+            <DatePicker
+                android:id="@+id/age_dp_signUp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:calendarViewShown="false"
+                android:datePickerMode="spinner"
+                android:spinnersShown="true" />
+
+            <Button
+                android:id="@+id/next_btn_signUp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:background="@drawable/btn2"
+                android:text="@string/register2_text8"
+                android:textColor="@color/white"
+                android:transitionName="transition_back_next_btn" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.introSlider.MainActivity"
+    style="@style/BackgroundColorApp"
+    android:fitsSystemWindows="true">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/progress_bar_intro"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/layoutDots"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="@dimen/_40sdp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginBottom="@dimen/_100sdp"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="horizontal"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        android:visibility="gone"/>-->
+
+
+    <ProgressBar
+        android:id="@+id/progress_bar_intro"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_alignParentBottom="true"
+        android:indeterminate="false"
+        android:indeterminateOnly="false"
+        android:progressDrawable="@drawable/scan_progress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:progress="25"/>
+
+    <ImageView
+        android:id="@+id/next_iv_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/progress_bar_intro"
+        android:layout_alignTop="@+id/progress_bar_intro"
+        android:layout_alignEnd="@+id/progress_bar_intro"
+        android:layout_alignBottom="@+id/progress_bar_intro"
+        android:padding="@dimen/_20sdp"
+        android:src="@drawable/ic_forward"
+        style="@style/imageColor"/>
+
+
+</RelativeLayout>

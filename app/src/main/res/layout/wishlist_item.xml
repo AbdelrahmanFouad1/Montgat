@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/_8sdp">
+
+        <ImageView
+            android:id="@+id/favBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|start"
+
+            android:src="@drawable/ic_remove"
+            style="@style/imageColorTint3"/>
+
+        <ImageView
+            android:id="@+id/favImageView"
+            android:layout_width="@dimen/_95sdp"
+            android:layout_height="@dimen/_120sdp"
+            android:layout_gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:scaleType="centerInside"
+            android:src="@drawable/t_shirt"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/favTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="this title Max line is twoadssssgfdahshf line not mor haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                android:textSize="@dimen/_16ssp" />
+
+            <TextView
+                android:id="@+id/favTextViewPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="500 EGP"
+                android:textStyle="bold"
+                android:textSize="@dimen/_14ssp"
+                style="@style/textColor2"/>
+
+            <Button
+                android:id="@+id/addToCart_btn_wishlistItem"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/btn2"
+                android:text="Add to cart"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line1"
+        android:background="@color/white_gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+</LinearLayout>

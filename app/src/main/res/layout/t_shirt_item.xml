@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="@dimen/_15sdp"
+    android:layout_marginTop="@dimen/_15sdp"
+    android:layout_marginRight="@dimen/_5sdp"
+    android:layout_marginLeft="@dimen/_5sdp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayoutItem"
+            style="@style/BackgroundColorItem">
+
+                <ImageView
+
+                    android:id="@+id/favorite_iv_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:padding="@dimen/_10sdp"
+                    android:src="@drawable/ic_baseline_favorite_border_24"
+                    android:layout_alignParentRight="true" />
+
+                <ImageView
+                    android:id="@+id/product_iv_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_160sdp"
+                    android:src="@drawable/t_shirt"
+                    android:padding="@dimen/_20sdp"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tile_tv_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayoutItem"
+            android:text="lgqr mayra women party wear shirt"
+            android:textSize="@dimen/_14ssp"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tile_tv_item"
+            android:layout_marginTop="@dimen/_5sdp">
+
+                <TextView
+                    android:id="@+id/price_tv_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="450.00"
+                    android:textSize="@dimen/_14ssp"
+                    style="@style/textColor2"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" EGP"
+                    android:textSize="@dimen/_14ssp"
+                    style="@style/textColor2"
+                    android:textStyle="bold" />
+        </LinearLayout>
+
+
+
+
+</RelativeLayout>

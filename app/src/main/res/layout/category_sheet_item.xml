@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/_5sdp"
+    android:id="@+id/item_LL_categorySheetItem">
+
+
+    <TextView
+        android:id="@+id/item_tv_categorySheetItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/_30sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_30sdp"
+        android:paddingBottom="@dimen/_10sdp"
+        android:text="T-shirt"
+        android:textSize="@dimen/_16ssp"  />
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFB74D</color>
+    <color name="yellow2">#FF9800</color>
+    <color name="dark_white">#EAEAEA</color>
+    <color name="error_color">#ff3333</color>
+    <color name="gray">#757575</color>
+    <color name="dark_gray">#424242</color>
+    <color name="white_gray">#EEEEEE</color>
+    <color name="white_green">#69F0AE</color>
+    <color name="aboutUs_line_color">#E0E0E0</color>
+
+
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#0000FF</color>
+    <color name="white_blue">#00FFFF</color>
+    <color name="main_yellow">#FFFF00</color>
+    <color name="burble">#FF00FF</color>
+    <color name="tea">#00A095</color>
+
+<!--    <color name="transparentColor">#000000000</color>-->
+
+    <color name="backgroundDark">#191d26</color>
+    <color name="backgroundItemDark">#2C3242</color>
+    <color name="backgroundLight">#FFFFFFFF</color>
+
+
+    <color name="indicatorColor">#dcdcdc</color>
+    <color name="indicatorSelected">#FF9800</color>
+
+
+
+
+    // dots inactive colors
+    <color name="dark_one">#dcdcdc</color>
+    <color name="dark_two">#dcdcdc</color>
+    <color name="dark_three">#dcdcdc</color>
+    <color name="dark_four">#dcdcdc</color>
+
+    // dots active colors
+    <color name="orange_one">#FF9800</color>
+    <color name="orange_two">#FF9800</color>
+    <color name="orange_three">#FF9800</color>
+    <color name="orange_four">#FF9800</color>
+
+
+    <array name="active">
+        <item>@color/orange_one</item>
+        <item>@color/orange_two</item>
+        <item>@color/orange_three</item>
+        <item>@color/orange_four</item>
+    </array>
+
+    <array name="inactive">
+        <item>@color/dark_one</item>
+        <item>@color/dark_two</item>
+        <item>@color/dark_three</item>
+        <item>@color/dark_four</item>
+    </array>
+
+</resources>

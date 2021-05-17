@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <group android:checkableBehavior="single">-->
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_shopping_basket_24"
+            android:title="Shop" />
+
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_shoppingcart"
+            android:title="My Cart" />
+
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_category"
+            android:title="Category" />
+
+
+<!--    </group>-->
+
+    <item android:title="Profile">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/ic_baseline_login_24"
+                    android:title="Login" />
+
+                <item
+                    android:id="@+id/nav_setting"
+                    android:icon="@drawable/ic_baseline_settings_24"
+                    android:title="Setting" />
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_account"
+                    android:title="Profile" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_sign_out"
+                    android:title="Logout" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_contact"
+                android:title="Contact Us" />
+
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_rating"
+                android:title="Rate Us" />
+
+            <item
+                android:id="@+id/nav_Share"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+
+
+        </menu>
+
+    </item>
+
+
+</menu>

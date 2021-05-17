@@ -1,0 +1,98 @@
+<resources>
+
+    <string name="app_name">montgat</string>
+
+
+    <string name="main_text1">Skip</string>
+    <string name="main_text2">Next</string>
+
+    <string name="splash_text1">Montgat</string>
+    <string name="splash_text2">More fun e-commerce App</string>
+
+    <string name="intro1_text1">Online Shopping</string>
+    <string name="intro1_text2">Shop from huge range of latest each one shoes, clothing, Watches and more for each one at\n best price.</string>
+
+    <string name="intro2_text1">Add to cart</string>
+    <string name="intro2_text2">Add to cart button works on product pages. The customizations in this section  compatible with dynamic checkout.<buttons></buttons></string>
+
+    <string name="intro3_text1">Payment successful</string>
+    <string name="intro3_text2"> Your payment has been successfully completed. You will receive a confirmation email within a few minutes.</string>
+
+    <string name="intro4_text1">Home delivery</string>
+    <string name="intro4_text2"> Delivering orders as quickly as possible while taking all  sterilization measures to properly deliver.</string>
+
+
+    <string name="login_text1">Hello there,\n Welcome Back</string>
+    <string name="login_text2">Sign in to continue</string>
+    <string name="login_text3">User name</string>
+    <string name="login_text4">Password</string>
+    <string name="login_text5">Forget Password?</string>
+    <string name="login_text6">Sign in</string>
+    <string name="login_text7">New User? Sign Up</string>
+
+    <string name="forget1_text1">Forget\n password</string>
+    <string name="forget1_text2">provide your account\'s email for which you want to send your password</string>
+    <string name="forget1_text3">Phone umber</string>
+    <string name="forget1_text4">Next</string>
+
+    <string name="forget2_text1">OTP Verification</string>
+    <string name="forget2_text2">Enter the OTP send to</string>
+    <string name="forget2_text3">+20 01555156821</string>
+    <string name="forget2_text4">Didn\'t receive the OPT?</string>
+    <string name="forget2_text5">Resend OTP</string>
+    <string name="forget2_text6">Verify</string>
+
+    <string name="forget3_text1">new \n credential</string>
+    <string name="forget3_text2">your identity has been verified ! \n set yor new password</string>
+    <string name="forget3_text3">Password</string>
+    <string name="forget3_text4">Confirm Password</string>
+    <string name="forget3_text5">Update</string>
+
+    <string name="forget4_text1">Password\n Update</string>
+    <string name="forget4_text2">Your password has been update</string>
+    <string name="forget4_text3">Login</string>
+
+    <string name="register1_text1">1/3</string>
+    <string name="register1_text2">Create\n Account</string>
+    <string name="register1_text3">Full Name</string>
+    <string name="register1_text4">Username</string>
+    <string name="register1_text5">Email</string>
+    <string name="register1_text6">Password</string>
+    <string name="register1_text7">Next</string>
+
+    <string name="register2_text1">2/3</string>
+    <string name="register2_text2">Create\n Account</string>
+    <string name="register2_text3">Choose Gender</string>
+    <string name="register2_text4">Male</string>
+    <string name="register2_text5">Female</string>
+    <string name="register2_text6">Other</string>
+    <string name="register2_text7">Select Yor Birth Day</string>
+    <string name="register2_text8">Next</string>
+
+    <string name="register3_text1">3/3</string>
+    <string name="register3_text2">Create\n Account</string>
+    <string name="register3_text3">Enter Your Photo</string>
+    <string name="register3_text4">Enter Number</string>
+    <string name="register3_text5">Phone Number</string>
+    <string name="register3_text6">Next</string>
+
+    <string name="register4_text1">OTP Verification</string>
+    <string name="register4_text2">Enter the OTP send to</string>
+    <string name="register4_text3">+20 01555156821</string>
+    <string name="register4_text4">Didn\'t receive the OPT?</string>
+    <string name="register4_text5">Resend</string>
+    <string name="register4_text6">Verify</string>
+
+    <string name="todo">TODO</string>
+
+    <string name="cancel">Cancel</string>
+
+
+    <string name="slider1_title">Slider Screen One</string>
+    <string name="slider2_title">Slider Screen Two</string>
+    <string name="slider3_title">Slider Screen Three</string>
+    <string name="navigation_drawer_open">open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+
+
+</resources>

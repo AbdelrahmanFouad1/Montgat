@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_150sdp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/newArrival_ll_item"
+    android:layout_margin="@dimen/_5sdp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_200sdp">
+
+        <ImageView
+            android:id="@+id/image_iv_newHome_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/man"
+            style="@style/BackgroundColorItem"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/label_tv_newHome_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lgqr mayra women party wear shirt"
+        android:textSize="@dimen/_14ssp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/price_tv_newHome_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="200"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textSize="@dimen/_14ssp"
+            style="@style/textColor2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" EGP"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textSize="@dimen/_14ssp"
+            style="@style/textColor2"/>
+    </LinearLayout>
+
+
+</LinearLayout>

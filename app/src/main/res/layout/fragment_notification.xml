@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/BackgroundColorApp"
+    android:padding="@dimen/_10sdp">
+
+    <ImageView
+        android:id="@+id/back_iv_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5sdp"
+        style="@style/imageColor"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_left_main_arrow" />
+
+
+    <TextView
+        android:id="@+id/notification_tv_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/textColor"
+        android:layout_alignBottom="@+id/back_iv_notification"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_toEndOf="@+id/back_iv_notification"
+        android:gravity="center"
+        android:paddingEnd="@dimen/_20sdp"
+        android:text="Notification"
+        android:textSize="@dimen/_22ssp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/notification_tv_profile"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:orientation="vertical">
+
+
+        <TextView
+            style="@style/textColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            android:text="These are notifications to add new arrivals, discounts on products, updates to the application, and to complete the online payment process." />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:padding="@dimen/_5sdp" />
+
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/darkTheme_switch_user"
+            style="@style/textColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:clickable="true"
+            android:padding="@dimen/_5sdp"
+            android:text="Allow Notifications on Montgat"
+            android:textSize="@dimen/_14ssp"
+            android:textStyle="bold"
+            android:theme="@style/material"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

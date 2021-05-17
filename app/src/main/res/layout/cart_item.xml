@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/_8sdp">
+
+        <ImageView
+            android:id="@+id/remove_btn_cart"
+            style="@style/imageColorTint3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|start"
+            android:src="@drawable/ic_remove" />
+
+        <ImageView
+            android:id="@+id/cartImage_iv_cart"
+            android:layout_width="@dimen/_95sdp"
+            android:layout_height="@dimen/_120sdp"
+            android:layout_gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:scaleType="centerInside"
+            android:src="@drawable/t_shirt" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:paddingEnd="@dimen/_10sdp"
+            android:paddingRight="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/titleCart_tv_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="this title Max line is twoadssssgfdahshf line not mor haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                android:textSize="@dimen/_16ssp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_5sdp">
+
+                <TextView
+                    style="@style/textColor2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EGP "
+                    android:textSize="@dimen/_14ssp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/price_tv_cart"
+                    style="@style/textColor2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="500"
+                    android:textSize="@dimen/_14ssp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/quantity_tv_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="x"
+                    style="@style/textColor2"
+                    android:textSize="@dimen/_16ssp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_marginLeft="@dimen/_8sdp"/>
+
+                <TextView
+                    android:id="@+id/quantityCart_tv_cart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    style="@style/textColor2"
+                    android:textSize="@dimen/_14ssp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Size"
+                    android:textSize="@dimen/_16ssp" />
+
+                <TextView
+                    android:id="@+id/sizeCart_tv_cart"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="XL"
+                    android:textSize="@dimen/_16ssp"
+                    android:gravity="end"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white_gray" />
+
+</LinearLayout>
