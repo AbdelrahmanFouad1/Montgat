@@ -2,3 +2,7 @@
 # Montgat
 
 ![appicon](https://github.com/AbdelrahmanFouad1/Montgat/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_main_logoo_round.png)
+
+Online clothes shopping application Online
+The Products are classified based on what category the product belongs to such as Shirt, Shoes etc...
+also, add a list of product to favorite and cart to buy
