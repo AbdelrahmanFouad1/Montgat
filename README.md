@@ -11,10 +11,13 @@ The Products are classified based on what category the product belongs to such a
 <p>
 <img src="https://user-images.githubusercontent.com/64610124/118847339-ebdf0480-b8cd-11eb-8993-2b2ff8571449.png" height="200" />
 <img src="https://user-images.githubusercontent.com/64610124/118847573-29439200-b8ce-11eb-8b36-2899465c4747.png" height="200" />
+<img src="https://user-images.githubusercontent.com/64610124/118848146-c6062f80-b8ce-11eb-93b3-e64057685a96.png" height="200" />
 <img src="https://user-images.githubusercontent.com/64610124/118847637-39f40800-b8ce-11eb-9a18-3c2570c50cdf.png" height="200" />
-<img src="https://user-images.githubusercontent.com/64610124/118846401-f3ea7480-b8cc-11eb-9f86-ff68c57d4e09.png" height="200" />
-<img src="https://user-images.githubusercontent.com/64610124/118846401-f3ea7480-b8cc-11eb-9f86-ff68c57d4e09.png" height="200" />
-<img src="https://user-images.githubusercontent.com/64610124/118846401-f3ea7480-b8cc-11eb-9f86-ff68c57d4e09.png" height="200" />
+<img src="https://user-images.githubusercontent.com/64610124/118848244-dcac8680-b8ce-11eb-80bf-e1c2a66f7d9e.png" height="200" />
+  
+<img src="https://user-images.githubusercontent.com/64610124/118848351-f77efb00-b8ce-11eb-9836-df0cb470716f.png" height="200" />
+<img src="https://user-images.githubusercontent.com/64610124/118848424-0796da80-b8cf-11eb-81af-ac9a8bb4d119.png" height="200" />
+
 <img src="https://user-images.githubusercontent.com/64610124/118846401-f3ea7480-b8cc-11eb-9f86-ff68c57d4e09.png" height="200" />
 <img src="https://user-images.githubusercontent.com/64610124/118846401-f3ea7480-b8cc-11eb-9f86-ff68c57d4e09.png" height="200" />
 <img src="https://user-images.githubusercontent.com/64610124/118846401-f3ea7480-b8cc-11eb-9f86-ff68c57d4e09.png" height="200" />
