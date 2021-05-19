@@ -16,5 +16,6 @@ The Products are classified based on what category the product belongs to such a
 * Use firebase with Storage
 * Nonlinear database like Realtime Database.
 * Automatic notifications about products.
+* responsive design Application
 
 
