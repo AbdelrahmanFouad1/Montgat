@@ -6,3 +6,15 @@
 Online clothes shopping application Online
 add a list of product to favorite and cart to buy
 The Products are classified based on what category the product belongs to such as Shirt, Shoes ... etc.
+
+
+# Features
+* MVVM architecture.
+* Support two theme (light, dark).
+* Local with SQLite database .
+* Authentication with firebase.
+* Use firebase with Storage
+* Nonlinear database like Realtime Database.
+* Automatic notifications about products.
+
+
